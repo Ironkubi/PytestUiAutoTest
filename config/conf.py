@@ -8,6 +8,7 @@ import os
 
 # 项目根目录
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(ROOT_DIR)
 # 报告目录
 REPORT_DIR = os.path.join(ROOT_DIR, 'report')
 # ui对象库config.ini文件所在目录
