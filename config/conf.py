@@ -11,10 +11,13 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print(ROOT_DIR)
 # 报告目录
 REPORT_DIR = os.path.join(ROOT_DIR, 'report')
+print(REPORT_DIR)
 # ui对象库config.ini文件所在目录
 CONF_PATH = os.path.join(ROOT_DIR, 'config', 'config.ini')
+print(CONF_PATH)
 # 测试数据所在目录
 DATA_Path = os.path.join(ROOT_DIR, 'data', 'tcData.xlsx')
+print(DATA_Path)
 # 当前时间
 CURRENT_TIME = datetime.now().strftime('%H_%M_%S')
 
